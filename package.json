@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/app.js",
-    "live": "live-server public"
+    "live": "live-server docs"
   },
   "keywords": [],
   "author": "",
