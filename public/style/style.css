@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Degaule;
+    src: url("../font/Degaule.otf");
+}
+
+.header {
+    font-family: Degaule;
+    font-size: 90px;
+}
+
+.content {
+    font-family: Inter;
+    opacity: .9;
+}
+
+.home-header {
+    font-family: Degaule;
+    font-size: 90px;
+    line-height: 50px;
+    color: #828aa2;
+    text-shadow: 3px 3px 4px rgb(50, 50, 50);
+}
+
+.info-list-title {
+    font-family: Inter;
+}

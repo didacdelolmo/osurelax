@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="icon" href="./img/favicon.png">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>osu! relax tournaments</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                <img src="./img/navbar-icon.jpg" width="50" class="rounded-circle">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <div class="navbar-nav">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#discord" class="nav-link">Discord</a>
+                    <a href="#information" class="nav-link">Information</a>
+                    <a href="#mappool" class="nav-link">Mappool</a>
+                    <a href="#schedule" class="nav-link">Schedule</a>
+                    <a href="#faq" class="nav-link">FAQ</a>
+                    <a href="#" class="nav-link disabled">Brackets</a>
+                    <a href="#signup" class="nav-link disabled">Sign up</a>
+                    <a href="#staff" class="nav-link">Staff</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home">
+        <div class="container text-center">
+            <div class="py-5">
+                <div class="row">
+                    <div class="col">
+                        <img class="rounded-circle shadow-lg" width="250" src="./img/home-icon.jpg">
+                        <p class="home-header">osu! relax tournaments</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-9 col-md-9 col-lg-7 col-xl-6">
+                        <div class="content fs-5 pt-3">
+                            <p>
+                                Take a cup of coffee and relax ☕... The osu tournaments are back!<br>
+                                This series of osu! tournaments specializes in using the relax mod, players will compete
+                                against each other in a fun mappool with cool song choices that covers many skillsets.
+                                This tournament lasts one day (meaning that everything is run in 6~ hours during one
+                                sitting) and the win condition is set to accuracy.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="discord" class="bg-dark">
+        <div class="container py-5">
+            <div class="row text-center text-light">
+                <div class="col pt-4">
+                    <h1>Join the discord!</h1>
+                </div>
+            </div>
+            <div class="row text-center text-light justify-content-center align-items-center">
+                <div class="col-lg-3 py-5">
+                    <!-- To do use a better icon -->
+                    <a href="https://discord.gg/PePbPbDRS8" target="_blank"><img style="width: 200px;"
+                            src="./img/discord.png"></a>
+
+                </div>
+                <div class="col-10 col-lg-5">
+                    <div class="content">
+                        <p>In the discord you will find a bunch of other participants who are actively looking for
+                            people to chat with! Find your best teammates in there or simply get inside so that you
+                            don't miss the latest announcements.</p>
+                        <p>In order to complete the sign-up process, you must be inside the discord server! Participants
+                            will have to post their match results on every tournament round in a separate discord
+                            channel, our staff will be monitoring the channel to ensure the results are correct and that
+                            the tournament brackets are updated.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="information">
+        <div class="container py-2">
+            <div class="row">
+                <div class="col text-center pt-5">
+                    <div class="header">
+                        <p>Information</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md text-center">
+                    <div class="info-list-title fw-bold pb-3">
+                        <h1>Tournament format</h1>
+                    </div>
+                    <div class="content fs-5">
+                        <ul style="list-style: none; padding: 0;">
+                            <li>The tournament lasts one day.</li>
+                            <li>The win condition is <strong>accuracy</strong>.</li>
+                            <li>The game format is 1v1 single elimination.</li>
+                            <li>The tournament rank range is from <strong>#3000</strong> to <strong>unlimited</strong>.
+                            </li>
+                            <li>The mappool star rate is from about 7⭐.</li>
+                            <li>This tournament uses the <strong>relax</strong> mod.</li>
+                            <li>There is no player limit for the tournament.</li>
+                            <li>The matches are to <strong>the best of 7</strong> (first to get to 4 wins)</li>
+                            <li>The grand finals match is to <strong>the best of 9</strong>.</li>
+                            <li>You must be inside the discord server to play.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md text-center pb-5">
+                    <div class="info-list-title fw-bold pb-3">
+                        <h1>Match procedures</h1>
+                    </div>
+                    <div class="content fs-5">
+                        <ul style="list-style: none">
+                            <li><strong>1.</strong> Someone creates a multiplayer lobby and invites their opponent.</li>
+                            <li><strong>2.</strong> Wait for your opponent to join the lobby. Remember to save the
+                                multiplayer link at the beginning of the chat.</li>
+                            <li><strong>3.</strong> Name the multiplayer room: GCT (Player1) vs (Player2)</li>
+                            <li><strong>4.</strong> When both players are ready, type !roll in chat. The highest roll is
+                                the roll winner.</li>
+                            <li><strong>5.</strong> The winner of the roll bans the first and the third map, they also
+                                get to pick the first map after the bans.</li>
+                            <li><strong>6.</strong> The loser of the roll bans the second and the fourth map. Remember
+                                that bans must be done in order! (1 -> 2 -> 3 -> 4)</li>
+                            <li><strong>7.</strong> The tiebreaker is played when the match score is 3-3.</li>
+                            <li><strong>8.</strong> The winner of the set grabs the match results and posts them on
+                                discord to advance to the next round.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mappool">
+        <div class="container py-3">
+            <div class="row">
+                <div class="col">
+                    <div class="header text-center">
+                        <p>Mappool</p>
+                    </div>
+                </div>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover align-middle text-center">
+                    <thead>
+                        <tr class="table-secondary">
+                            <th scope="col">Banner</th>
+                            <th scope="col">Mod</th>
+                            <th scope="col">Song</th>
+                            <th scope="col">SR</th>
+                            <th scope="col">BPM</th>
+                            <th scope="col">Length</th>
+                            <th scope="col">Mapper(s)</th>
+                            <th scope="col">Suggestor</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-group-divider">
+                        <tr class="table-danger">
+                            <th scope="row"><img style="height: 50px;"
+                                    src="https://assets.ppy.sh/beatmaps/1759290/covers/cover.jpg"></th>
+                            <td>HR1</td>
+                            <td><a class="text-dark" target="_blank"
+                                    href="https://osu.ppy.sh/beatmapsets/1759290#osu/3600610">Meu Koharu - Summer Light</a></td>
+                            <td>4.77 ⭐</td>
+                            <td>212</td>
+                            <td>04:31</td>
+                            <td>Didah</td>
+                            <td>Didah</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule" class="bg-dark mt-5">
+        <div class="container text-light py-5">
+            <div class="header text-center">
+                <p>Schedule</p>
+            </div>
+            <div class="row text-center justify-content-center">
+                <div class="col-12 col-md-3">
+                    <div class="content">
+                        <h2>11th November</h2>
+                        <p>
+                            Tournament & forum post announcement, sign-ups open for players below #3000 (e.g. rank #1000
+                            can't register)
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="content">
+                        <h2>18th November</h2>
+                        <p>Mappool showcase & release (both on website and youtube)</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="content">
+                        <h2>26th November</h2>
+                        <p>
+                            Sign-ups are closed, bracket pairings are announced & the tournament begins
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq">
+        <div class="container my-5 py-5">
+            <div class="header text-center">
+                <p>FAQ</p>
+            </div>
+            <div class="accordion content" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            How do I sign-up to the tournament?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                        aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            Your rank must be below #3000 to be elegible to participate (e.g. if your rank is #200.000,
+                            you're able to register), to sign-up you have to comment in the tournament forum post your
+                            current rank, then join the discord and change your nickname to your osu! username (you can
+                            revert it back after the verification process is done). You should get the participant role
+                            in a few days after you signed up, if you did NOT get the discord role before the tournament
+                            starts please ping Didah#9887 urgently because bracket pairings are done via the list of
+                            participants with the role in discord.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            I'm signed up but I don't want to play the tournament anymore, what do I do?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            If the tournament hasn't started yet, message Didah#9887 and tell him that you're not
+                            interested in playing the tournament anymore, your participant role will be removed from
+                            discord and you won't be added to the tournament brackets. If the tournament has started and
+                            the brackets are announced, do not enter the multiplayer game and tell your opponent that
+                            you will not be playing the tournament.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            What to do if my opponent doesn't show up?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            Give your opponents a reasonable amount of time to join the multiplayer lobby (there's been
+                            multiple cases in the past where participants may have fallen asleep, had network
+                            connectivity problems or simply had other more important tasks to do). If your opponent
+                            still doesn't show up after pinging them multiple times on discord and you have waited an
+                            estimated amount of 15~ minutes, go to the <code>#results</code> channel in discord and
+                            include a message with the provided results format saying that your opponent didn't show up.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFour">
+                            When am I allowed to play the next round?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingFour">
+                        <div class="accordion-body">
+                            You should be constantly looking at the tournament brackets in challonge to know who you're
+                            playing against, when you get paired with an opponent, feel free to invite them to the
+                            mupltiplayer lobby (this means you don't have to wait for specific round times to play
+                            against someone, instead the round will start as soon as both players from the bracket
+                            pairing are prepared). Players are allowed to take 10 minute breaks when their match has
+                            finished if they need so, in that case, the opponent will have to wait until the other
+                            player is ready (if the break time gets excessively delayed, the player may get removed from
+                            the tournament brackets).
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFive">
+                            What happens if I accidentally quit the lobby?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingFive">
+                        <div class="accordion-body">
+                            In case someone quits the lobby in-game, the player will lose the map and will be able to
+                            re-join the lobby. In uncommon cases where there are gameplay issues at the very beginning
+                            of the map (the first few seconds) such as tablet disconnectivity, very high latency due to
+                            having the storyboard enabled or similar related issues, the map may be played again from
+                            the beginning IF the other player agrees with it.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="staff">
+        <div class="bg-dark">
+            <div class="container py-5">
+                <div class="header text-light text-center">
+                    <p>Staff</p>
+                </div>
+                <div class="row text-light text-center justify-content-center">
+                    <div class="col-12 col-md-3">
+                        <div class="content">
+                            <div class="py-2">
+                                <h2>Organizer</h2>
+                            </div>
+                            <a target="_blank" href="https://osu.ppy.sh/users/8030129"><img
+                                    class="img-fluid rounded-circle" style="width: 100px;"
+                                    src="https://a.ppy.sh/8030129?1665763335.jpeg"></a>
+                            <p>Didah</p>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="content py-2">
+                            <h2>Pool tester</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="content">
+                                    <a target="_blank" href="https://osu.ppy.sh/users/13187450"><img
+                                            class="img-fluid rounded-circle" style="width: 100px;"
+                                            src="https://a.ppy.sh/13187450?1654776357.jpeg"></a>
+                                    <p>Caruma</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="content">
+                                    <a target="_blank" href="https://osu.ppy.sh/users/7009485"><img
+                                            class="img-fluid rounded-circle" style="width: 100px;"
+                                            src="https://a.ppy.sh/7009485?1666909536.jpeg"></a>
+                                    <p>BadAimBoi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center text-light py-5 fs-5 justify-content-center">
+                    <div class="col-8 col-md-6">
+                        <div class="content">
+                            <p>Want to join us? We are actively looking for people to join our team! If you are
+                                interested in testing/mapping for our mappools, refing the grand matches, streaming the
+                                finals, live commenting or doing art designs, please contact Didah#9887 on discord!</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
